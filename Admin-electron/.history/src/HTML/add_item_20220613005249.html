@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <title>Admin-Add_item</title>
+    </head>
+
+    <body class="add">
+        <form action="/action_page.php">
+            <h3 for="item_name" class="one" id="item_name ">Item name:</h3><br>
+            <input type="text" id='item_name' class ="input" name="fname" ><br>
+            <h3 for="Category_name" class="one" id="Category_name">Category name:</h3><br>
+            <input type="text" id="Category_name" class ="input" name="fname" ><br>
+            <h3 for="price" class="one" id="price">Price:</h3><br>
+            <input type="text"  class ="input" name="fname" ><br>
+            <div >
+            <h3 for="pictures" class="one">Item Picture:</h3><br>
+            <input id="pictures" class="two input" type="file" accept="image/*">
+            </div>
+            <input type="submit" class="submit input" value="Submit">
+            
+        </form> 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../JS/add_category.js"></script>
+    </body>
+</html>

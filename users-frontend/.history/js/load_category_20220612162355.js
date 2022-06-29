@@ -1,0 +1,1 @@
+let select=document.getElementsByClassName("boxx")

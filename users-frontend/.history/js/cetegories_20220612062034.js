@@ -1,0 +1,1 @@
+let category_name=document.getElements("category_name")

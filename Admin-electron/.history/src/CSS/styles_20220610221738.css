@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-1, .box-2{
+    padding:5% 5% 5% 5%;  
+    margin-left:0% ;
+    margin-top: 20%;
+    border-radius: 20px;
+}
+
+.box-1{
+    margin-left: 30%;
+}
+
+.box-2{
+    margin-left: 5%;
+}
+
+ .box-2:hover, .box-1:hover{
+    border-color: red;
+}
+
+label {
+    padding-top: 5%;
+}
